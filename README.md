@@ -41,7 +41,14 @@ Dev Container features are defined using simple shell scripts.
 ```bash
 #!/bin/bash
 
-cargo install cargo-binstall
+set -e -u -o pipefail
+
+USERNAME="${USERNAME:-"vscode"}"
+
+su "${USERNAME}" -c "curl -L --proto '=https' --tlsv1.2 -sSf https://raw.githubusercontent.com/cargo-bins/cargo-binstall/main/install-from-binstall-release.sh | bash"
+su "${USERNAME}" -c "cargo binstall just cargo-lambda --no-confirm"
+
+echo "Done!"
 
 # Add your custom installation steps below ---
 ```
