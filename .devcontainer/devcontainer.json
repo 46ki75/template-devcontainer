@@ -14,7 +14,6 @@
         "Gruntfuggly.todo-tree",
         "christian-kohler.path-intellisense",
         "dbaeumer.vscode-eslint",
-        "stylelint.vscode-stylelint",
         "esbenp.prettier-vscode",
         "ms-azuretools.vscode-docker"
       ]
@@ -23,9 +22,7 @@
   "forwardPorts": [],
   "features": {
     "ghcr.io/devcontainers-extra/features/starship": {},
-    "ghcr.io/devcontainers/features/github-cli": {},
-    "ghcr.io/devcontainers/features/node": {},
-    "ghcr.io/devcontainers/features/rust": {},
-    "./features/cargo-binstall": {}
-  }
+    "ghcr.io/devcontainers/features/github-cli": {}
+  },
+  "postCreateCommand": "echo 'eval \"$(starship init bash)\"' >> ~/.bashrc"
 }
