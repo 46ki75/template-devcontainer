@@ -1,0 +1,14 @@
+{
+  "id": "cargo-binstall",
+  "name": "cargo-binstall (via cargo)",
+  "version": "1.0.0",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "[rust]": { "editor.defaultFormatter": "rust-lang.rust-analyzer" }
+      },
+      "extensions": ["rust-lang.rust-analyzer"]
+    }
+  },
+  "installsAfter": ["ghcr.io/devcontainers/features/rust"]
+}

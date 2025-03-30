@@ -23,6 +23,9 @@
   "forwardPorts": [],
   "features": {
     "ghcr.io/devcontainers-extra/features/starship": {},
-    "ghcr.io/devcontainers/features/github-cli": {}
+    "ghcr.io/devcontainers/features/github-cli": {},
+    "ghcr.io/devcontainers/features/node": {},
+    "ghcr.io/devcontainers/features/rust": {},
+    "./features/cargo-binstall": {}
   }
 }
