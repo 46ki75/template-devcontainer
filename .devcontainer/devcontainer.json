@@ -1,0 +1,27 @@
+{
+  "name": "Template Dev Container",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "settings": {},
+      "extensions": [
+        "GitHub.copilot",
+        "GitHub.copilot-chat",
+        "usernamehw.errorlens",
+        "Gruntfuggly.todo-tree",
+        "christian-kohler.path-intellisense",
+        "dbaeumer.vscode-eslint",
+        "stylelint.vscode-stylelint",
+        "esbenp.prettier-vscode",
+        "ms-azuretools.vscode-docker"
+      ]
+    }
+  },
+  "forwardPorts": [],
+  "features": {
+    "ghcr.io/devcontainers-extra/features/starship": {},
+    "ghcr.io/devcontainers/features/github-cli": {}
+  }
+}
