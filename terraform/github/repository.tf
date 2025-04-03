@@ -1,5 +1,5 @@
 resource "github_repository" "repository" {
-  name        = "notionrs"
+  name        = local.repository
   description = "Template Repository"
 
   has_downloads        = false
