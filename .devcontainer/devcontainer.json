@@ -23,7 +23,10 @@
         // Rust
         "rust-lang.rust-analyzer",
         "tamasfe.even-better-toml",
-        "fill-labs.dependi"
+        "fill-labs.dependi",
+
+        // Terraform
+        "HashiCorp.terraform"
       ]
     }
   },
@@ -39,7 +42,10 @@
     "ghcr.io/devcontainers/features/node": {},
 
     // Rust
-    "ghcr.io/devcontainers/features/rust": {}
+    "ghcr.io/devcontainers/features/rust": {},
+
+    // Terraform
+    "ghcr.io/devcontainers/features/terraform": {}
   },
   "postCreateCommand": "echo 'eval \"$(starship init bash)\"' >> ~/.bashrc"
 }
