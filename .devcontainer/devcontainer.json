@@ -25,6 +25,11 @@
         "tamasfe.even-better-toml",
         "fill-labs.dependi",
 
+        // .NET
+        "ms-dotnettools.csharp",
+        "ms-dotnettools.csdevkit",
+        "ms-dotnettools.vscodeintellicode-csharp",
+
         // Terraform
         "HashiCorp.terraform"
       ]
