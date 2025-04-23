@@ -44,6 +44,9 @@
     // Rust
     "ghcr.io/devcontainers/features/rust": {},
 
+    // .NET
+    "ghcr.io/devcontainers/features/dotnet": {},
+
     // Terraform
     "ghcr.io/devcontainers/features/terraform": {}
   },
