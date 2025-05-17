@@ -18,15 +18,11 @@
         "dbaeumer.vscode-eslint",
         "esbenp.prettier-vscode",
         // Rust
-        "rust-lang.rust-analyzer",
-        "tamasfe.even-better-toml",
         "fill-labs.dependi",
         // .NET
         "ms-dotnettools.csharp",
         "ms-dotnettools.csdevkit",
-        "ms-dotnettools.vscodeintellicode-csharp",
-        // Terraform
-        "HashiCorp.terraform"
+        "ms-dotnettools.vscodeintellicode-csharp"
       ]
     }
   },
