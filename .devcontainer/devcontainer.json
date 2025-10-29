@@ -39,7 +39,15 @@
     // .NET
     "ghcr.io/devcontainers/features/dotnet": {},
     // Terraform
-    "ghcr.io/devcontainers/features/terraform": {}
+    "ghcr.io/devcontainers/features/terraform": {},
+    "./features/cargo-toolchain": {},
+    "./features/uv": {}
   },
+  "remoteEnv": {
+    "AWS_PROFILE": "examples"
+  },
+  "mounts": [
+    "type=bind,source=${localEnv:HOME}/.aws/,target=/home/vscode/.aws/"
+  ],
   "postCreateCommand": "echo 'eval \"$(starship init bash)\"' >> ~/.bashrc"
 }
