@@ -46,11 +46,7 @@
     "./features/cargo-toolchain": {},
     "./features/uv": {}
   },
-  "remoteEnv": {
-    "AWS_PROFILE": "examples"
-  },
-  "mounts": [
-    "type=bind,source=${localEnv:HOME}/.aws/,target=/home/vscode/.aws/"
-  ],
+  "remoteEnv": {},
+  "mounts": [],
   "postCreateCommand": "echo 'eval \"$(starship init bash)\"' >> ~/.bashrc"
 }
